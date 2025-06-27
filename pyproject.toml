@@ -1,0 +1,21 @@
+[project]
+name = "hall-of-fame-enhancers"
+version = "1.0.0"
+description = "Streamlit application for Hall of Fame enhancer analysis with genomic visualizations"
+dependencies = [
+    "streamlit>=1.28.0",
+    "pandas>=2.0.0", 
+    "numpy>=1.24.0",
+    "plotly>=5.15.0",
+    "pyarrow>=12.0.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.streamlit]
+[tool.streamlit.server]
+headless = true
+address = "0.0.0.0"
+port = 5000
