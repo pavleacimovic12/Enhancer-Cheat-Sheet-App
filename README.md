@@ -4,20 +4,7 @@ Enhancer Cheat Sheet App with metadata, imaging and peak accessibility visualiza
 
 # Hall of Fame Enhancers Analysis - Cheat Sheet
 
-A Streamlit-based genomic data visualization platform for analyzing enhancer accessibility profiles across 55 Hall of Fame enhancers and 34 cell types.
-
-## Features
-
-- **Authentic Data Integration**: Uses real enhancer data from CSV and metadata from Feather files
-- **Interactive Filtering**: Filter by enhancer, cargo, experiment type, proximal gene, and cell type
-- **Embedded Visualizations**: Large contact sheets and Neuroglancer viewers embedded directly
-- **pyGenomeTracks-style Plots**: Peak accessibility profiles with consistent Y-axis scaling
-- **Comprehensive Metadata**: Real experimental information from Allen Institute data
-
-## Data Sources
-
-- **Peak Data**: `HOF_enhancers_peak_data_*.csv` - 783,158 accessibility records
-- **Metadata**: `Enhancer_and_experiment_metadata_*.feather` - 411 experimental records
+A Streamlit-based genomic data visualization platform for analyzing enhancer accessibility profiles across all enhancers and 34 cell types.
 
 ## Installation
 
