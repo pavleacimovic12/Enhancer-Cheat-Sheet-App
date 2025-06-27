@@ -1,11 +1,6 @@
 # Enhancer-Cheat-Sheet-App
 Enhancer Cheat Sheet App with metadata, imaging and peak accessibility visualization across brain cell types
 
-
-# Hall of Fame Enhancers Analysis - Cheat Sheet
-
-A Streamlit-based genomic data visualization platform for analyzing enhancer accessibility profiles across all enhancers and 34 cell types.
-
 ## Installation
 
 ```bash
